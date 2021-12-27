@@ -46,7 +46,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      My goal is to enrich the data science community with the knowledge I possess.
+      Interested to solve problems on parallel computing, dealing with huge datasets to extract insights. <br />
+      My goal is to enrich the data science community with the knowledge I possess.  
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
