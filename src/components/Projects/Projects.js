@@ -26,14 +26,17 @@ const Projects = () => (
                 })}
               </TagList>
             </div>
-            <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-            </UtilityList>
-          </BlogCard>
+            <div>
+              {p.id!=0 && p.id!=1 && p.id!=2 && p.id!=3 && (
+              <UtilityList>
+                  <ExternalLinks href={p.visit}>Code</ExternalLinks>
+              </UtilityList>
+              )}
+            </div>
+            </BlogCard>
         );
       })}
     </GridContainer>
-    <SectionText>Note: code for projects at Lowe's cannot be exposed because of comany policies</SectionText>
   </Section>
 );
 

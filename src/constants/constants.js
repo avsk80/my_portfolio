@@ -41,7 +41,7 @@ export const projects = [
   },
   {
     title: "Evaluating Driver Distraction Level (Academic)",
-    description: "This is a kaggle problem statement to predict the type of distraction faced by a driver. More info in my github",
+    description: "This is a kaggle problem statement to classify the type of distraction faced by a driver. The CNN model was 93% accurate on the test set. More info in my github",
     image: '/images/distracted_car_driving.jpg',
     tags: ['Python', 'Tensorflow', 'Keras'],
     visit: "https://github.com/avsk80/Driver_distraction_evaluation",
