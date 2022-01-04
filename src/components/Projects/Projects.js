@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
@@ -19,21 +19,21 @@ const Projects = () => (
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Key Words</TitleContent>
+              <TitleContent>Technologies/Tools</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
                 })}
               </TagList>
             </div>
-            {/* <UtilityList>
+            <UtilityList>
               <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
-            </UtilityList> */}
+            </UtilityList>
           </BlogCard>
         );
       })}
     </GridContainer>
+    <SectionText>Note: code for projects at Lowe's cannot be exposed because of comany policies</SectionText>
   </Section>
 );
 

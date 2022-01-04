@@ -13,7 +13,7 @@ const Hero = (props) => (
           Checkout my profile...
         </SectionTitle>
         <SectionText>
-          Extremely fascinated to pursue my career in the Data world
+          Extremely fascinated to pursue my career in the data world
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>

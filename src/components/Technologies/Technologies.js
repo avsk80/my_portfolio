@@ -16,10 +16,10 @@ const Technologies = () =>  (
           <DiSpark size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>BigData Stack</ListTitle>
+          <ListTitle>Big Data Stack</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            Sqoop, Hive, Spark-Core, SQL, Stream
+            Sqoop, Hive, Spark-Core, SQL, Streaming
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -30,7 +30,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Databases</ListTitle>
           <ListParagraph>
-            MySQL, MS SQL <br />
+            MySQL, MS SQL, <br />
             GCP-BigQuery, Cassandra
           </ListParagraph>
         </ListContainer>
@@ -42,8 +42,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Web</ListTitle>
           <ListParagraph>
-            Node.js, Flask <br />
-            HTML5, CSS3
+            Node.js, Flask, <br />
+            HTML5
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -54,7 +54,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Programming</ListTitle>
           <ListParagraph>
-            Python, Java <br />
+            Python, Java, <br />
             Shell-scripting
           </ListParagraph>
         </ListContainer>
@@ -67,7 +67,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>AI related courses</ListTitle>
           <ListParagraph>
-            Linear Algebra, Calculus <br />
+            Linear Algebra, Calculus, <br />
             Stats and Probability, ML, DL
           </ListParagraph>
         </ListContainer>
@@ -81,7 +81,6 @@ const Technologies = () =>  (
           <ListTitle>General</ListTitle>
           <ListParagraph>
             Problem solving, DevOps<br />
-            Business communication
           </ListParagraph>
         </ListContainer>
       </ListItem>
