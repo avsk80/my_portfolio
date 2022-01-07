@@ -40,7 +40,7 @@ export const projects = [
     id: 4,
   },
   {
-    title: "Evaluating Driver Distraction Level (Academic)",
+    title: " Driver Distraction Image Classification (Academic)",
     description: "This is a kaggle problem statement to classify the type of distraction faced by a driver. The CNN model was 93% accurate on the test set. More info in my github",
     image: '/images/distracted_car_driving.jpg',
     tags: ['Python', 'Tensorflow', 'Keras'],
@@ -48,7 +48,7 @@ export const projects = [
     id: 5,
   },
   {
-    title: "Diabetes prediction",
+    title: "Diabetes Prediction",
     description: "This is a kaggle problem statement that predicts if a person has diabetes or not based on parameters like glucose level, BMI, BP etc. More info in my github",
     image: '/images/diabetes.jpg',
     tags: ['Python', 'Flask', 'HTML', 'CSS'],
